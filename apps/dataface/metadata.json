@@ -1,0 +1,17 @@
+{
+  "id": "dataface",
+  "name": "Data Face",
+  "shortName": "DataFace",
+  "version": "0.0.1",
+  "description": "Clean 3-column weather + steps watch face.",
+  "icon": "dataface.png",
+  "type": "clock",
+  "tags": "clock,weather,steps",
+  "screenshots": [{ "url": "screenshot_1.png" }],
+  "supports": ["BANGLEJS2"],
+  "allow_emulator": true,
+  "storage": [
+    { "name": "dataface.app.js", "url": "dataface.app.js" },
+    { "name": "dataface.img", "url": "app-icon.js", "evaluate": true }
+  ]
+}
